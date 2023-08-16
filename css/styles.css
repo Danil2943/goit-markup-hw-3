@@ -279,7 +279,7 @@ img {
   cursor: pointer;
   display: block;
   min-width: 169px;
-  height: 59px;
+  height: 56px;
   border: none;
   background-color: var(--iris);
   border-radius: 4px;
@@ -290,12 +290,26 @@ img {
   background-color: var(--ocean);
 }
 
+.about {
+  padding: 120px 0;
+}
+
+.about-list {
+  display: flex;
+  gap: 24px;
+}
+
+.about-items {
+  width: calc((100% - 72px) / 4);
+}
+
 .a-title {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .a-paragrapf {
