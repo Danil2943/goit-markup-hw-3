@@ -64,7 +64,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  visibility: hidden;
 }
 
 .link {
@@ -197,6 +196,7 @@ img {
 .footer,
 .m-p-footer {
   background-color: var(--navyblue);
+  padding: 100px 0;
 }
 
 .footer-icon,
@@ -217,6 +217,7 @@ img {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
 
 /*----------------------------------INDEX-HTML--------------------------------------*/
@@ -320,6 +321,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.description {
+  padding-bottom: 120px 0;
+}
+
 .title-description,
 .title-team {
   color: var(--navyblue);
@@ -330,14 +335,36 @@ img {
   line-height: 1.11em;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.description-list {
+  display: flex;
+  gap: 24px;
+}
+
+.descriprion-items {
+  width: calc((100% - 48px) / 3);
 }
 
 .team {
   background-color: var(--cloud);
+  padding: 120px 0;
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-items {
   background-color: var(--white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-cont {
+  padding: 32px 0;
 }
 
 .names {
@@ -348,6 +375,7 @@ img {
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .professions {
@@ -357,6 +385,11 @@ img {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.32px;
+}
+
+.a-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .foot-icon {
