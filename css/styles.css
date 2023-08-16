@@ -38,9 +38,19 @@ img {
 
 .container {
   max-width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
   display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .visually-hidden {
@@ -215,11 +225,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  padding: 24px 0;
 }
 
 .list-items:hover,
 .list-items:focus {
   color: var(--ocean);
+}
+
+.a-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .a-list {
