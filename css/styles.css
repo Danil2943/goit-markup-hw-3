@@ -38,8 +38,9 @@ img {
 
 .container {
   max-width: 1158px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin: 0;
+  padding: 0 15px;
+  display: flex;
 }
 
 .visually-hidden {
@@ -70,6 +71,10 @@ img {
 .ab,
 .description {
   background-color: var(--white);
+}
+
+.m-p-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav {
