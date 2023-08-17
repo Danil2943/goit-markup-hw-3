@@ -41,7 +41,11 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.header-container {
   display: flex;
+  align-items: center;
 }
 
 .nav {
@@ -128,7 +132,6 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .p-list {
@@ -207,11 +210,14 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
+.a-cards-item {
+  display: block;
+}
+
 .cards-div {
   padding: 32px 16px;
   border: 1px solid var(--color-white);
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .cards-description {
@@ -220,6 +226,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .cards-text {
   color: var(--slate);
@@ -234,19 +241,6 @@ img {
 .m-p-footer {
   background-color: var(--navyblue);
   padding: 100px 0;
-}
-
-.footer-icon,
-.foot-icon {
-  color: var(--iris);
-  font-family: "Raleway" sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text,
@@ -307,6 +301,8 @@ img {
   line-height: 1.07em;
   letter-spacing: 1.12px;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .main-btn {
@@ -324,6 +320,7 @@ img {
   border: none;
   background-color: var(--iris);
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .main-btn:hover,
@@ -434,4 +431,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  display: inline-block;
+  margin-bottom: 16px;
 }
