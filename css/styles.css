@@ -380,7 +380,7 @@ img {
 }
 
 .descriprion-items {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .team {
